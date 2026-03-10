@@ -70,6 +70,7 @@ export const defaultOptions = {
   debugResponseTimeIndicator: false,
   chatPingExtension: true,
   chatSpellCheckEnabled: false,
+  alwaysShowTypingIndicator: false,
   // antiAliasing: false,
   topRightTimeDisplay: 'only-fullscreen' as 'only-fullscreen' | 'always' | 'never',
 
@@ -189,6 +190,7 @@ export const serverSafeSettings: Partial<Record<keyof typeof defaultOptions, tru
   chatVanillaRestrictions: true,
   chatPingExtension: true,
   chatSpellCheckEnabled: true,
+  alwaysShowTypingIndicator: true,
   renderEntities: true,
   displayRecordButton: true,
   topRightTimeDisplay: true,
